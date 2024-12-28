@@ -1,0 +1,12 @@
+
+
+Permanent Access Token - 
+EAASMu2Lg1UwBAF2W4Q99ToQdGtzuNcZAcZAovZAZCWZC30VYLm7fJKUZCZCCibDPwnV4lBq6Twk6n86omzkFx97UZBkdzzHMCM9jEZBsOEZB2BBEikJoSZBYHoJKQFY3J36wlpeDzzI1W5VidAvKVI7KjnuHQ1w0dvZCsCtvLPsTtxcBOoIIS3BjmHoo
+
+
+
+curl -i -X POST `
+  https://graph.facebook.com/v15.0/102855739401615/messages `
+  -H 'Authorization: Bearer EAASMu2Lg1UwBAGxBHgh0IFP8F6ozUXt4UK24v0ZCqMasYj4z6G4f7M86Yk58juM2pKcIqnZBhYiUq2Uo2fip6leRLCdPBophaeZBWZCptdRa0vORTcmNFlt2aOKpr2EndxAnOmtffZBGOpu2NUrXaZC956hwOgBOgIs3PiaHCDg7sNRrpmOZB9NJByxwt3uNOzDDEhuVNrirQZDZD' `
+  -H 'Content-Type: application/json' `
+  -d '{ "messaging_product": "whatsapp", "to": "", "type": "template", "template": { "name": "hello_world", "language": { "code": "en_US" } } }'
